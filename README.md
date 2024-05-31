@@ -6,7 +6,7 @@ conda create -n revenue-prediction python=3.11 -y
 conda activate revenue-prediction 
 ```
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 
