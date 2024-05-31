@@ -8,9 +8,6 @@ conda activate revenue-prediction
 ```bash
 pip install -r requirement.txt
 ```
-```bash
-pip install -r requirement.txt
-```
 
 
 

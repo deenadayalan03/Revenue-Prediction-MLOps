@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Revenue-Prediction-MLOps"
 AUTHOR_USER_NAME = "deenadayalan03"
-SRC_REPO = "ML-Project"
+SRC_REPO = "ML_Project"
 AUTHOR_EMAIL = "deenadayalan.dms@gmail.com"
 
 
