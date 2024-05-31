@@ -6,7 +6,7 @@ matplotlib
 python-box==6.0.2
 pyYAML
 ensure==1.0.2
-joblib
+joblib  # or pickle
 types-PyYAML
 Flask
 Flask-Cors
