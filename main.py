@@ -1,2 +1,3 @@
-from src.ML_Project.config import configuration
-a = configuration.main()
+from src.mlproject import logger
+
+logger.info("I'm Deena")
