@@ -1,0 +1,13 @@
+COLUMNS:
+  Transaction ID: int64  
+  Date: object 
+  Product Category: object 
+  Product Name: object 
+  Units Sold: int64  
+  Unit Price: float64
+  Region: object 
+  Payment Method: object 
+
+
+TARGET_COLUMN:
+  name: Total Revenue
