@@ -214,3 +214,163 @@ x==========x]
 [2024-06-03 21:25:21,989: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-06-06 11:26:28,490: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 11:26:28,492: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 11:26:28,494: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 11:26:28,495: INFO: common: created directory at: artifacts]
+[2024-06-06 11:26:28,496: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 11:27:09,826: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 11:27:09,827: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 11:27:09,828: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 11:27:09,829: INFO: common: created directory at: artifacts]
+[2024-06-06 11:27:09,830: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 11:58:55,484: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 11:58:55,485: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 11:58:55,487: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 11:58:55,488: INFO: common: created directory at: artifacts]
+[2024-06-06 11:58:55,488: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 12:12:05,515: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 12:12:05,516: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 12:12:05,519: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 12:12:05,520: INFO: common: created directory at: artifacts]
+[2024-06-06 12:12:05,520: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 12:12:05,540: ERROR: 1856007579: An error occurred during data transformation: Shape of passed values is (240, 1), indices imply (240, 247)]
+[2024-06-06 12:13:27,931: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 12:13:27,932: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 12:13:27,933: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 12:13:27,934: INFO: common: created directory at: artifacts]
+[2024-06-06 12:13:27,935: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 12:13:27,945: ERROR: 1856007579: An error occurred during data transformation: Shape of transformed data (248) does not match the number of feature names (247)]
+[2024-06-06 12:13:45,903: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 12:13:45,904: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 12:13:45,905: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 12:13:45,905: INFO: common: created directory at: artifacts]
+[2024-06-06 12:13:45,905: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 12:13:45,910: ERROR: 1710816222: An error occurred during data transformation: Shape of transformed data (248) does not match the number of feature names (247)]
+[2024-06-06 12:23:42,715: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 12:23:42,716: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 12:23:42,717: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 12:23:42,718: INFO: common: created directory at: artifacts]
+[2024-06-06 12:23:42,719: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 12:23:42,730: ERROR: 1710816222: An error occurred during data transformation: Shape of transformed data (248) does not match the number of feature names (247)]
+[2024-06-06 12:27:30,740: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 12:27:30,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 12:27:30,744: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 12:27:30,746: INFO: common: created directory at: artifacts]
+[2024-06-06 12:27:30,746: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 12:27:30,751: ERROR: 1710816222: An error occurred during data transformation: A given column is not a column of the dataframe]
+[2024-06-06 12:31:57,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 12:31:57,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 12:31:57,993: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 12:31:57,994: INFO: common: created directory at: artifacts]
+[2024-06-06 12:31:57,995: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 12:31:57,995: ERROR: 2293050510: An error occurred during data transformation: name 'DataTransformation' is not defined]
+[2024-06-06 14:04:36,867: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:04:36,869: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:04:36,870: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:04:36,870: INFO: common: created directory at: artifacts]
+[2024-06-06 14:04:36,870: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:04:36,872: ERROR: 2293050510: An error occurred during data transformation: DataTransformation.preprocess_data() missing 1 required positional argument: 'data']
+[2024-06-06 14:05:17,174: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:05:17,176: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:05:17,178: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:05:17,179: INFO: common: created directory at: artifacts]
+[2024-06-06 14:05:17,180: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:05:17,209: ERROR: 819548062: An error occurred during data transformation: name 'label_encoder' is not defined]
+[2024-06-06 14:06:22,160: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:06:22,161: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:06:22,163: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:06:22,165: INFO: common: created directory at: artifacts]
+[2024-06-06 14:06:22,165: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:06:22,170: ERROR: 819548062: An error occurred during data transformation: name 'label_encoder' is not defined]
+[2024-06-06 14:15:20,223: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:15:20,224: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:15:20,226: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:15:20,227: INFO: common: created directory at: artifacts]
+[2024-06-06 14:15:20,228: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:15:20,232: ERROR: 819548062: An error occurred during data transformation: name 'LabelEncoder' is not defined]
+[2024-06-06 14:26:06,233: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:26:06,234: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:26:06,235: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:26:06,236: INFO: common: created directory at: artifacts]
+[2024-06-06 14:26:06,236: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:26:06,242: ERROR: 819548062: An error occurred during data transformation: name 'preprocessing' is not defined]
+[2024-06-06 14:26:24,873: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:26:24,874: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:26:24,876: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:26:24,877: INFO: common: created directory at: artifacts]
+[2024-06-06 14:26:24,877: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:26:24,882: ERROR: 819548062: An error occurred during data transformation: 'DataTransformation' object has no attribute 'label_encoders']
+[2024-06-06 14:27:09,881: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:27:09,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:27:09,883: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:27:09,883: INFO: common: created directory at: artifacts]
+[2024-06-06 14:27:09,884: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:27:09,902: INFO: 600075428: Split data into training and test sets]
+[2024-06-06 14:27:09,903: INFO: 600075428: Train shape: (180, 9)]
+[2024-06-06 14:27:09,904: INFO: 600075428: Test shape: (60, 9)]
+[2024-06-06 14:28:31,618: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:28:31,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:28:31,622: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:28:31,624: INFO: common: created directory at: artifacts]
+[2024-06-06 14:28:31,625: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:28:31,641: INFO: 3643743089: Split data into training and test sets]
+[2024-06-06 14:28:31,642: INFO: 3643743089: Train shape: (192, 9)]
+[2024-06-06 14:28:31,643: INFO: 3643743089: Test shape: (48, 9)]
+[2024-06-06 14:53:51,992: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-06 14:53:51,992: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:53:51,992: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:53:51,992: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:53:51,992: INFO: common: created directory at: artifacts]
+[2024-06-06 14:53:51,992: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-06 14:53:53,854: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 6938
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25723199fef9757e9199e48477bbdba9042f1d43ee9fe9d865b19e3e66907603"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D37C:102035:67F16:894BA:6661802A
+Accept-Ranges: bytes
+Date: Thu, 06 Jun 2024 09:23:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10221-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1717665834.128601,VS0,VE316
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9d50c38e947f19ae84e95810d68ec2bec78fc419
+Expires: Thu, 06 Jun 2024 09:28:54 GMT
+Source-Age: 0
+
+]
+[2024-06-06 14:53:53,862: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-06 14:53:53,862: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-06-06 14:53:53,862: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:53:53,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:53:53,867: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:53:53,868: INFO: common: created directory at: artifacts]
+[2024-06-06 14:53:53,868: INFO: common: created directory at: artifacts/data_validation]
+[2024-06-06 14:53:53,872: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-06-06 14:53:53,872: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-06-06 14:53:53,874: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:53:53,875: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:53:53,877: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:53:53,878: INFO: common: created directory at: artifacts]
+[2024-06-06 14:53:53,879: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:53:53,888: INFO: data_transformation: Split data into training and test sets]
+[2024-06-06 14:53:53,888: INFO: data_transformation: Train shape: (192, 9)]
+[2024-06-06 14:53:53,888: INFO: data_transformation: Test shape: (48, 9)]
+[2024-06-06 14:53:53,889: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
