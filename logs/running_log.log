@@ -374,3 +374,11 @@ x==========x]
 [2024-06-06 14:53:53,889: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x]
+[2024-06-06 14:54:42,465: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 14:54:42,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 14:54:42,467: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 14:54:42,470: INFO: common: created directory at: artifacts]
+[2024-06-06 14:54:42,471: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-06 14:54:42,486: INFO: 3643743089: Split data into training and test sets]
+[2024-06-06 14:54:42,487: INFO: 3643743089: Train shape: (192, 9)]
+[2024-06-06 14:54:42,487: INFO: 3643743089: Test shape: (48, 9)]
