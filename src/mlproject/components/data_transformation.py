@@ -1,9 +1,9 @@
 import os
-from src.mlproject import logger
+from mlproject import logger
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from sklearn import preprocessing
-from src.mlproject.entity.config_entity import DataTransformationConfig
+from mlproject.entity.config_entity import DataTransformationConfig
 
 class DataTransformation:
     def __init__(self, config: DataTransformationConfig):

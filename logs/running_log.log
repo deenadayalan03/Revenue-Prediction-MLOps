@@ -382,3 +382,143 @@ x==========x]
 [2024-06-06 14:54:42,486: INFO: 3643743089: Split data into training and test sets]
 [2024-06-06 14:54:42,487: INFO: 3643743089: Train shape: (192, 9)]
 [2024-06-06 14:54:42,487: INFO: 3643743089: Test shape: (48, 9)]
+[2024-06-06 16:33:32,530: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 16:33:32,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 16:34:05,733: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 16:34:05,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 16:34:05,742: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 16:34:05,742: INFO: common: created directory at: artifacts]
+[2024-06-06 16:36:10,037: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 16:36:10,049: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 16:36:10,053: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 16:36:10,061: INFO: common: created directory at: artifacts]
+[2024-06-06 16:36:49,254: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 16:36:49,266: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 16:36:49,271: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 16:36:49,279: INFO: common: created directory at: artifacts]
+[2024-06-06 16:36:49,279: INFO: common: created directory at: artifacts/model_trainer]
+[2024-06-06 16:37:33,454: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 16:37:33,471: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 16:37:33,495: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 16:37:33,503: INFO: common: created directory at: artifacts]
+[2024-06-06 16:37:33,516: INFO: common: created directory at: artifacts/model_trainer]
+[2024-06-06 16:52:04,413: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 16:52:04,420: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 16:52:04,426: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 16:52:04,426: INFO: common: created directory at: artifacts]
+[2024-06-06 16:52:04,426: INFO: common: created directory at: artifacts/model_trainer]
+[2024-06-06 16:54:38,728: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 16:54:38,777: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 16:54:38,809: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-06 16:54:38,818: INFO: common: created directory at: artifacts]
+[2024-06-06 16:54:38,826: INFO: common: created directory at: artifacts/model_trainer]
+[2024-06-07 09:21:35,542: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-07 09:21:35,543: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-07 09:21:35,544: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-07 09:21:35,545: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-07 09:21:35,546: INFO: common: created directory at: artifacts]
+[2024-06-07 09:21:35,546: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-07 09:22:01,474: ERROR: main: Remote end closed connection without response]
+Traceback (most recent call last):
+  File "C:\Users\deena\Sales Project\Revenue-Prediction-MLOps\main.py", line 14, in <module>
+    obj.main()
+  File "C:\Users\deena\Sales Project\Revenue-Prediction-MLOps\src\mlproject\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\deena\sales project\revenue-prediction-mlops\src\mlproject\components\data_ingestion.py", line 17, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\urllib\request.py", line 1352, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deena\anaconda3\envs\revenue-prediction\Lib\http\client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+[2024-06-07 09:24:32,064: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-07 09:24:32,064: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-07 09:24:32,067: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-07 09:24:32,068: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-07 09:24:32,069: INFO: common: created directory at: artifacts]
+[2024-06-07 09:24:32,069: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-07 09:24:33,824: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 6938
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25723199fef9757e9199e48477bbdba9042f1d43ee9fe9d865b19e3e66907603"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F303:F7DA7:4235D4:567D7B:66628477
+Accept-Ranges: bytes
+Date: Fri, 07 Jun 2024 03:54:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1717732474.858073,VS0,VE289
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 04a020463604ff37f5c8a53818227c62c8e7f24f
+Expires: Fri, 07 Jun 2024 03:59:34 GMT
+Source-Age: 0
+
+]
+[2024-06-07 09:24:33,824: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-07 09:24:33,824: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-06-07 09:24:33,841: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-07 09:24:33,841: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-07 09:24:33,844: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-07 09:24:33,844: INFO: common: created directory at: artifacts]
+[2024-06-07 09:24:33,844: INFO: common: created directory at: artifacts/data_validation]
+[2024-06-07 09:24:33,855: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-06-07 09:24:33,855: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-06-07 09:24:33,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-07 09:24:33,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-07 09:24:33,858: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-07 09:24:33,859: INFO: common: created directory at: artifacts]
+[2024-06-07 09:24:33,859: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-07 09:24:33,883: INFO: data_transformation: Split data into training and test sets]
+[2024-06-07 09:24:33,883: INFO: data_transformation: Train shape: (192, 9)]
+[2024-06-07 09:24:33,883: INFO: data_transformation: Test shape: (48, 9)]
+[2024-06-07 09:24:33,884: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-06-07 09:24:33,884: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-06-07 09:24:33,884: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-07 09:24:33,884: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-07 09:24:33,884: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-06-07 09:24:33,884: INFO: common: created directory at: artifacts]
+[2024-06-07 09:24:33,884: INFO: common: created directory at: artifacts/model_trainer]
+[2024-06-07 09:24:33,900: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
