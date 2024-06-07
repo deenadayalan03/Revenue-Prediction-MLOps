@@ -14,7 +14,7 @@ class DataTransformation:
         data['Date'] = pd.to_datetime(data['Date'])
         data['Month'] = data['Date'].dt.month
         data.drop('Date', axis=1, inplace=True)
-        categorical_features = ['Product Category', 'Region', 'Payment Method', 'Product Name']
+        categorical_features = ['Product Category', 'Region', 'Payment Method']
         for feature in categorical_features:
             le = preprocessing.LabelEncoder()
             data[feature] = le.fit_transform(data[feature])
@@ -23,7 +23,7 @@ class DataTransformation:
     def train_test_spliting(self):
         data = pd.read_csv(self.config.data_path)
         # Preprocess data df_preprocessed
-        data_preprocessed = self.preprocess_data(data.drop('Total Revenue', axis=1))
+        data_preprocessed = self.preprocess_data(data.drop(['Total Revenue', 'Transaction ID', 'Product Name'], axis=1))
         data_preprocessed['Total Revenue'] = data['Total Revenue']
 
         # Split the data into training and test sets (0.75, 0.25) split
